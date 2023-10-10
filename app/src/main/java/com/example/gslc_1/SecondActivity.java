@@ -163,10 +163,6 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     private double calculate(String expression) {
         String[] tokens = expression.split(" ");
 
-        if(tokens.length != 3){
-            return 0;
-        }
-
         double operand1 = Double.parseDouble(tokens[0]);
         double operand2 = Double.parseDouble(tokens[2]);
 
