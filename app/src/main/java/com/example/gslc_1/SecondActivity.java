@@ -163,8 +163,8 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     private double calculate(String expression) {
         String[] tokens = expression.split(" ");
 
-        if (tokens.length != 3) {
-            output.setText("NULL");
+        if(tokens.length != 3){
+            return 0;
         }
 
         double operand1 = Double.parseDouble(tokens[0]);
@@ -180,16 +180,8 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
             case 'x':
                 return operand1 * operand2;
             case '÷':
-
-                if (operand2 == 0) {
-                    output.setText("NULL");
-                }
                 return operand1 / operand2;
             case '%':
-
-                if (operand2 == 0) {
-                    output.setText("NULL");
-                }
                 return operand1 % operand2;
             default:
                 return 0;
