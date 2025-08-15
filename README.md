@@ -1,6 +1,19 @@
-# simple_android_calculator
-- Main Activity (Linear Layout)
-![Screenshot_20231009_234722_Gslc_1](https://github.com/temptedwithouta/simple_android_calculator/assets/93007514/5fa1f75f-fa94-466b-b179-90820537c9d1)
+# Simple Android Calculator
 
-- Second Activity (Grid Layout)
-![Screenshot_20231009_235223_Gslc_1](https://github.com/temptedwithouta/simple_android_calculator/assets/93007514/fd4368d8-1293-42c2-954c-aae168c3cb13)
+A simple calculator application for Android, built using Java in Android Studio.  
+This app supports basic arithmetic operations with a minimal and clean interface, designed for quick and easy calculations.
+
+## ✨ Features
+- Addition, subtraction, multiplication, and division
+- Clear and reset functionality
+- Responsive and user-friendly UI
+- Lightweight and fast
+
+## 📸 Screenshots
+![Home Page](https://github.com/temptedwithouta/simple_android_calculator/assets/93007514/5fa1f75f-fa94-466b-b179-90820537c9d1)
+![Calculator Page](https://github.com/temptedwithouta/simple_android_calculator/assets/93007514/fd4368d8-1293-42c2-954c-aae168c3cb13)
+
+## 🛠️ Tech Stack
+- **Language:** Java
+- **IDE:** Android Studio
+- **UI:** XML Layouts
